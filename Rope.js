@@ -9,7 +9,7 @@ class Rope {
 
     this.pointB = pointB;
     this.rope = Constraint.create(options);
-    World.add(world, this.rope);
+    Composite.add(world, this.rope);
   }
 
   fly() {
