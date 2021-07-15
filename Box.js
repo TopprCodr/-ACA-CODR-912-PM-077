@@ -9,7 +9,7 @@ class Box {
     this.width = width;
     this.height = height;
     
-    World.add(world, this.body);
+    Composite.add(world, this.body);
   }
   display(){
     var pos =this.body.position;
